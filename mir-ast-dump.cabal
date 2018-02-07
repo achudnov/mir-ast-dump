@@ -22,5 +22,8 @@ executable mir-ast-dump
   build-depends:       base >=4.9 && <4.10
                      , mir-verifier
                      , groom
+                     , aeson
+                     , bytestring
+                     , mir-verifier
   hs-source-dirs:      src
   default-language:    Haskell2010
